@@ -19,8 +19,7 @@ font = pygame.font.SysFont(None, 36)
 try:
     player_image = pygame.image.load("img/galleta.png")
 except:
-    print("⚠️ No se encontró 'img/galleta.png'. Asegúrate de tener la imagen en la carpeta correcta.")
-    pygame.quit()
+    print("'img/galleta.png'. ()
     sys.exit()
 
 player_image = pygame.transform.scale(player_image, (150, 150))
